@@ -1,0 +1,61 @@
+#thumbs > span {
+    width: 80px;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border 0.8s;
+    font-size: 0;
+}
+
+#thumbs > span:hover {
+    border: 2px solid #ddd;
+}
+
+#thumbs img {
+    width: 100%;
+}
+
+#thumbs {
+    margin-top: 9px;
+    text-align: center;
+    font-size: 0;
+    background: #DDD;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+#thumbs .thumb {
+    display: inline-block;
+    zoom: 1;
+    margin: 0 4px;
+    position: relative;
+}
+
+#thumbs .thumb img {
+    border: 2px solid white;
+    cursor: pointer;
+    width: 70px;
+    height: 44px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+#thumbs .thumb-on img {
+    border: 2px solid white;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+#thumbs .playvideo {
+    cursor: pointer;
+    position: absolute;
+    background: transparent url(prod/playvideo.png) no-repeat center center;
+    width: 70px;
+    height: 44px;
+    left: 0;
+    top: 2px;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
